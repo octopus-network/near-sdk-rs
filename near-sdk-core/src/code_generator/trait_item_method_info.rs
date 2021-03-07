@@ -3,7 +3,7 @@ use crate::{
     AttrSigInfo,
 };
 use quote::quote;
-use syn::export::TokenStream2;
+use proc_macro2::TokenStream as TokenStream2;
 
 impl TraitItemMethodInfo {
     /// Generate code that wraps the method.
